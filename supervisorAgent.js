@@ -1,6 +1,6 @@
 async function fetchChatCompletionMessage(body) {
   console.log("Calling the mosaic AI end point");
-  const response = await fetch("http://localhost:3001/api/databricks-proxy", {
+  const response = await fetch("https://twilio-backend-560890946691.europe-west1.run.app/api/databricks-proxy", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
