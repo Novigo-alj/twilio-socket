@@ -11,7 +11,7 @@ RUN npm install --production
 # Now COPY rest of backend code
 COPY . .
 
-ENV PORT 8080
-EXPOSE 8080
+ENV PORT 3002
+EXPOSE 3002
 
 CMD ["node", "index.js"]
