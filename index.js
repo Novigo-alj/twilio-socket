@@ -133,7 +133,7 @@ You are a junior customer service representative for ALJ. Your primary role is t
 - Maintain polite, clear, and natural phrasing in all languages.
 `;
 const VOICE = 'alloy';
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 8080;
 
 // List of Event Types to log to the console.
 const LOG_EVENT_TYPES = [
